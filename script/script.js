@@ -18,14 +18,14 @@ menu_hot_boton.addEventListener("click", hot)
 menu_no_alcohol_boton.addEventListener("click", no_alcohol)
 menu_beer_boton.addEventListener("click", beer)
 
-function food() { window.alert("food") }
+function food() {}
 
-function cool() { window.alert("cool") }
+function cool() {}
 
-function alcohol() { window.alert("alcohol") }
+function alcohol() {}
 
-function hot() { window.alert("hot") }
+function hot() {}
 
-function no_alcohol() { window.alert("no_alcohol") }
+function no_alcohol() {}
 
-function beer() { window.alert("beer") }
+function beer() {}
