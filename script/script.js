@@ -1,31 +1,75 @@
-var menu_food_boton = document.getElementById("menu_food_boton")
-var menu_food = document.getElementById("menu_food")
-var menu_cool_boton = document.getElementById("menu_cool_boton")
-var menu_cool = document.getElementById("menu_cool")
-var menu_alcohol_boton = document.getElementById("menu_alcohol_boton")
-var menu_alcohol = document.getElementById("menu_alcohol")
-var menu_hot_boton = document.getElementById("menu_hot_boton")
-var menu_hot = document.getElementById("menu_hot")
-var menu_no_alcohol_boton = document.getElementById("menu_no_alcohol_boton")
-var menu_no_alcohol = document.getElementById("menu_no_alcohol")
-var menu_beer_boton = document.getElementById("menu_beer_boton")
-var menu_beer = document.getElementById("menu_beer")
+var app = new Vue({
 
-menu_food_boton.addEventListener("click", food)
-menu_cool_boton.addEventListener("click", cool)
-menu_alcohol_boton.addEventListener("click", alcohol)
-menu_hot_boton.addEventListener("click", hot)
-menu_no_alcohol_boton.addEventListener("click", no_alcohol)
-menu_beer_boton.addEventListener("click", beer)
+    el: "#app",
+    data: {
+        seen_food: false,
+        seen_cool: true,
+        seen_beer: false,
+        seen_no_alcohol: false,
+        seen_alcohol: false,
+        seen_hot: false
+    },
+    methods: {
+        menu_food: function() {
+            if (!this.seen_food) {
+                this.seen_food = true
+                this.seen_hot = false
+                this.seen_beer = false
+                this.seen_alcohol = false
+                this.seen_no_alcohol = false
+                this.seen_cool = false
+            }
+        },
+        menu_cool: function() {
+            if (!this.seen_cool) {
+                this.seen_food = false
+                this.seen_hot = false
+                this.seen_beer = false
+                this.seen_alcohol = false
+                this.seen_no_alcohol = false
+                this.seen_cool = true
+            }
+        },
+        menu_hot: function() {
+            if (!this.seen_hot) {
+                this.seen_food = false
+                this.seen_hot = true
+                this.seen_beer = false
+                this.seen_alcohol = false
+                this.seen_no_alcohol = false
+                this.seen_cool = false
+            }
+        },
+        menu_alcohol: function() {
+            if (!this.seen_alcohol) {
+                this.seen_food = false
+                this.seen_hot = false
+                this.seen_beer = false
+                this.seen_alcohol = true
+                this.seen_no_alcohol = false
+                this.seen_cool = false
+            }
+        },
+        menu_no_alcohol: function() {
+            if (!this.seen_no_alcohol) {
+                this.seen_food = false
+                this.seen_hot = false
+                this.seen_beer = false
+                this.seen_alcohol = false
+                this.seen_no_alcohol = true
+                this.seen_cool = false
+            }
+        },
+        menu_beer: function() {
+            if (!this.seen_beer) {
+                this.seen_food = false
+                this.seen_hot = false
+                this.seen_beer = true
+                this.seen_alcohol = false
+                this.seen_no_alcohol = false
+                this.seen_cool = false
+            }
+        },
+    }
 
-function food() {}
-
-function cool() {}
-
-function alcohol() {}
-
-function hot() {}
-
-function no_alcohol() {}
-
-function beer() {}
+})
