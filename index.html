@@ -76,21 +76,20 @@
 
 <body id="body">
     <div id="app">
-        <nav id="nav" class="navbar navbar-light w-100 position-fixed sticky-top mb-5" style="background-color: #0d5306;">
-            <div class="row d-flex w-100 align-items-center justify-content-center">
-                <div class="mr-1"><button @click="menu_food" id="menu_food_boton" class="btn btn-success mt-1" type="button">Para comer</button>
-                </div>
-                <div class="mr-1"><button @click="menu_cool" id="menu_cool_boton" class="btn btn-success mt-1" type="button ">Bebida fria</button>
-                </div>
-                <div class="mr-1"><button @click="menu_hot" id="menu_hot_boton" class="btn btn-success mt-1" type="button ">Bebida caliente</button>
-                </div>
-                <div class="mr-1"><button @click="menu_beer" id="menu_beer_boton" class="btn btn-success mt-1" type="button ">Cervezas</button>
-                </div>
-                <div class="mr-1"><button @click="menu_alcohol" id="menu_alcohol_boton" class="btn btn-success mt-1" type="button ">Licores</button>
-                </div>
-                <div class="mr-1"><button @click="menu_no_alcohol" id="menu_no_alcohol_boton" class="btn btn-success mt-1" type="button ">Cocteles sin licor</button>
-                </div>
+        <nav id="nav" class="navbar d-flex align-items-center justify-content-center navbar-light w-100 position-fixed sticky-top mb-5" style="background-color: #0d5306;">
+            <div class="mr-1"><button @click="menu_food" id="menu_food_boton" class="btn btn-success mt-1" type="button">Para comer</button>
             </div>
+            <div class="mr-1"><button @click="menu_beer" id="menu_beer_boton" class="btn btn-success mt-1" type="button ">Cervezas</button>
+            </div>
+            <div class="mr-1"><button @click="menu_cool" id="menu_cool_boton" class="btn btn-success mt-1" type="button ">Bebida fria</button>
+            </div>
+            <div class="mr-1"><button @click="menu_hot" id="menu_hot_boton" class="btn btn-success mt-1" type="button ">Bebida caliente</button>
+            </div>
+            <div class="mr-1"><button @click="menu_alcohol" id="menu_alcohol_boton" class="btn btn-success mt-1" type="button ">Licores</button>
+            </div>
+            <div class="mr-1"><button @click="menu_no_alcohol" id="menu_no_alcohol_boton" class="btn btn-success mt-1" type="button ">Cocteles sin licor</button>
+            </div>
+
         </nav>
 
         <!--MENU FOOD START-->
@@ -131,7 +130,7 @@
 
                             <div class="row-menu d-flex justify-content-between " id="panelPrecios ">
                                 <h2><a class="item-menu tittle-item ">Alitas BBQ</a></h2>
-                                <div class=" col-2 ">
+                                <div class=" col-3 ">
                                     <span class="item-prise ">$17.000</span>
                                 </div>
                             </div>
@@ -142,7 +141,7 @@
                             <div class="row-menu d-flex justify-content-between " id="panelPrecios ">
                                 <h2><a class="item-menu tittle-item ">Alitas BBQ</a>
                                 </h2>
-                                <div class="col-2 ">
+                                <div class="col-3 ">
                                     <span class="item-prise ">$29.000</span>
                                 </div>
                             </div>
@@ -153,7 +152,7 @@
                             <div class="row-menu d-flex justify-content-between ">
                                 <h2><a class="item-menu tittle-item ">Buñuelos de Res</a>
                                 </h2>
-                                <div class="col-2 ">
+                                <div class="col-3 ">
                                     <span class="item-prise ">$17.000</span>
                                 </div>
                             </div>
@@ -165,7 +164,7 @@
                             <div class="row-menu d-flex justify-content-between ">
                                 <h2><a class="item-menu tittle-item ">Empanadas Joshua</a>
                                 </h2>
-                                <div class="col-2 ">
+                                <div class="col-3 ">
                                     <span class="item-prise ">$17.000</span>
                                 </div>
                             </div>
@@ -177,7 +176,7 @@
                             <div class="row-menu d-flex justify-content-between ">
                                 <h2><a class="item-menu tittle-item ">Salchicha Alemana</a>
                                 </h2>
-                                <div class="col-2 ">
+                                <div class="col-3 ">
                                     <span class="item-prise ">$17.000</span>
                                 </div>
                             </div>
@@ -214,7 +213,7 @@
                             <div class="row-menu d-flex justify-content-between ">
                                 <h2><a class="item-menu tittle-item ">HOT DOG TERNERA</a>
                                 </h2>
-                                <div class="col-2 ">
+                                <div class="col-3 ">
                                     <span class="item-prise ">$18.000</span>
                                 </div>
                             </div>
@@ -226,7 +225,7 @@
                             <div class="row-menu d-flex justify-content-between ">
                                 <h2><a class="item-menu tittle-item ">HOT DOG RES</a>
                                 </h2>
-                                <div class="col-2 ">
+                                <div class="col-3 ">
                                     <span class="item-prise ">$18.000</span>
                                 </div>
                             </div>
@@ -271,7 +270,7 @@
                                     <div class="row-menu d-flex justify-content-between ">
                                         <h2><a class="item-menu tittle-item ">Hamburguesa Dublín</a>
                                         </h2>
-                                        <div class="col-2 ">
+                                        <div class="col-3 ">
                                             <span class="item-prise ">$18.500</span>
                                         </div>
                                     </div>
@@ -283,7 +282,7 @@
                                     <div class="row-menu d-flex justify-content-between ">
                                         <h2><a class="item-menu tittle-item ">Hamburguesa Doble carne</a>
                                         </h2>
-                                        <div class="col-2 ">
+                                        <div class="col-3 ">
                                             <span class="item-prise ">$24.500</span>
                                         </div>
                                     </div>
@@ -294,7 +293,7 @@
                                     <div class="row-menu d-flex justify-content-between ">
                                         <h2><a class="item-menu tittle-item ">Hamburguesa Mexicana</a>
                                         </h2>
-                                        <div class="col-2 ">
+                                        <div class="col-3 ">
                                             <span class="item-prise ">$19.000</span>
                                         </div>
                                     </div>
@@ -307,7 +306,7 @@
                                     <div class="row-menu d-flex justify-content-between ">
                                         <h2><a class="item-menu tittle-item ">Hamburguesa Campesina</a>
                                         </h2>
-                                        <div class="col-2 ">
+                                        <div class="col-3 ">
                                             <span class="item-prise ">$19.000</span>
                                         </div>
                                     </div>
@@ -319,7 +318,7 @@
                                     <div class="row-menu d-flex justify-content-between ">
                                         <h2><a class="item-menu tittle-item ">Hamburguesa Pollo</a>
                                         </h2>
-                                        <div class="col-2 ">
+                                        <div class="col-3 ">
                                             <span class="item-prise ">$19.500</span>
                                         </div>
                                     </div>
@@ -331,7 +330,7 @@
                                     <div class="row-menu d-flex justify-content-between ">
                                         <h2><a class="item-menu tittle-item ">Hamburguesa Criolla</a>
                                         </h2>
-                                        <div class="col-2 ">
+                                        <div class="col-3 ">
                                             <span class="item-prise ">$19.000</span>
                                         </div>
                                     </div>
@@ -370,7 +369,7 @@
                                         <div class="row-menu d-flex justify-content-between ">
                                             <h2><a class="item-menu tittle-item ">Wrap de Pollo</a>
                                             </h2>
-                                            <div class="col-2 ">
+                                            <div class="col-3 ">
                                                 <span class="item-prise ">$20.000</span>
                                             </div>
                                         </div>
@@ -382,7 +381,7 @@
                                         <div class="row-menu d-flex justify-content-between ">
                                             <h2><a class="item-menu tittle-item ">Wrap de Tocineta</a>
                                             </h2>
-                                            <div class="col-2 ">
+                                            <div class="col-3 ">
                                                 <span class="item-prise ">$20.000</span>
                                             </div>
                                         </div>
@@ -425,7 +424,7 @@
                                             <div class="row-menu d-flex justify-content-between ">
                                                 <h2><a class="item-menu tittle-item ">Lomo a la Parrilla</a>
                                                 </h2>
-                                                <div class="col-2 ">
+                                                <div class="col-3 ">
                                                     <span class="item-prise ">$27.000</span>
                                                 </div>
                                             </div>
@@ -438,7 +437,7 @@
                                             <div class="row-menu d-flex justify-content-between ">
                                                 <h2><a class="item-menu tittle-item ">Lomo en Salsa de Champiñones</a>
                                                 </h2>
-                                                <div class="col-2 ">
+                                                <div class="col-3 ">
                                                     <span class="item-prise ">$29.000</span>
                                                 </div>
                                             </div>
@@ -451,7 +450,7 @@
                                             <div class="row-menu d-flex justify-content-between ">
                                                 <h2><a class="item-menu tittle-item ">Lomo en Salsa Mexicana</a>
                                                 </h2>
-                                                <div class="col-2 ">
+                                                <div class="col-3 ">
                                                     <span class="item-prise ">$29.000</span>
                                                 </div>
                                             </div>
@@ -464,7 +463,7 @@
                                             <div class="row-menu d-flex justify-content-between ">
                                                 <h2><a class="item-menu tittle-item ">Costillitas BBQ o a la Parrilla</a>
                                                 </h2>
-                                                <div class="col-2 ">
+                                                <div class="col-3 ">
                                                     <span class="item-prise ">$27.000</span>
                                                 </div>
                                             </div>
@@ -477,7 +476,7 @@
                                             <div class="row-menu d-flex justify-content-between ">
                                                 <h2><a class="item-menu tittle-item ">Colombinas de Pollo</a>
                                                 </h2>
-                                                <div class="col-2 ">
+                                                <div class="col-3 ">
                                                     <span class="item-prise ">$20.500</span>
                                                 </div>
                                             </div>
@@ -491,7 +490,7 @@
                                             <div class="row-menu d-flex justify-content-between ">
                                                 <h2><a class="item-menu tittle-item ">Nuggets de Pollo</a>
                                                 </h2>
-                                                <div class="col-2 ">
+                                                <div class="col-3 ">
                                                     <span class="item-prise ">$17.500</span>
                                                 </div>
                                             </div>
@@ -502,7 +501,7 @@
                                             <div class="row-menu d-flex justify-content-between ">
                                                 <h2><a class="item-menu tittle-item ">Brochetas de Pollo</a>
                                                 </h2>
-                                                <div class="col-2 ">
+                                                <div class="col-3 ">
                                                     <span class="item-prise ">$18.000</span>
                                                 </div>
                                             </div>
@@ -543,7 +542,7 @@
                                     <div class="row-menu d-flex justify-content-between ">
                                         <h2><a class="item-menu tittle-item ">Creole del Mar</a>
                                         </h2>
-                                        <div class="col-2 ">
+                                        <div class="col-3 ">
                                             <span class="item-prise ">$9.000</span>
                                         </div>
                                     </div>
@@ -556,7 +555,7 @@
                                                 <div class="row-menu d-flex justify-content-between ">
                                                     <h2><a class="item-menu tittle-item ">Picada Parrilla</a>
                                                     </h2>
-                                                    <div class="col-2 ">
+                                                    <div class="col-3 ">
                                                         <span class="item-prise ">$45.000</span>
                                                     </div>
                                                 </div>
@@ -570,7 +569,7 @@
                                                 <div class="row-menu d-flex justify-content-between ">
                                                     <h2><a class="item-menu tittle-item ">Picada Joshua</a>
                                                     </h2>
-                                                    <div class="col-2 ">
+                                                    <div class="col-3 ">
                                                         <span class="item-prise ">$41.000</span>
                                                     </div>
                                                 </div>
@@ -584,7 +583,7 @@
                                                 <div class="row-menu d-flex justify-content-between ">
                                                     <h2><a class="item-menu tittle-item ">Picada Galway</a>
                                                     </h2>
-                                                    <div class="col-2 ">
+                                                    <div class="col-3 ">
                                                         <span class="item-prise ">$32.000</span>
                                                     </div>
                                                 </div>
@@ -598,7 +597,7 @@
                                                 <div class="row-menu d-flex justify-content-between ">
                                                     <h2><a class="item-menu tittle-item ">Picada Cork</a>
                                                     </h2>
-                                                    <div class="col-2 ">
+                                                    <div class="col-3 ">
                                                         <span class="item-prise ">$32.000</span>
                                                     </div>
                                                 </div>
@@ -635,7 +634,7 @@
                                                 <div class="row-menu d-flex justify-content-between ">
                                                     <h2><a class="item-menu tittle-item ">Ensalada Joshua</a>
                                                     </h2>
-                                                    <div class="col-2 ">
+                                                    <div class="col-3 ">
                                                         <span class="item-prise ">$22.000</span>
                                                     </div>
                                                 </div>
@@ -647,7 +646,7 @@
                                                 <div class="row-menu d-flex justify-content-between ">
                                                     <h2><a class="item-menu tittle-item ">Ensalada Shamrock</a>
                                                     </h2>
-                                                    <div class="col-2 ">
+                                                    <div class="col-3 ">
                                                         <span class="item-prise ">$18.000</span>
                                                     </div>
                                                 </div>
@@ -686,7 +685,7 @@
                                                         <div class="row-menu d-flex justify-content-between ">
                                                             <h2><a class="item-menu tittle-item ">Anillos de Cebolla</a>
                                                             </h2>
-                                                            <div class="col-2 ">
+                                                            <div class="col-3 ">
                                                                 <span class="item-prise ">$6.000</span>
                                                             </div>
                                                         </div>
@@ -697,7 +696,7 @@
                                                         <div class="row-menu d-flex justify-content-between ">
                                                             <h2><a class="item-menu tittle-item ">Papas a la francesa</a>
                                                             </h2>
-                                                            <div class="col-2 ">
+                                                            <div class="col-3 ">
                                                                 <span class="item-prise ">$6.000</span>
                                                             </div>
                                                         </div>
@@ -708,7 +707,7 @@
                                                         <div class="row-menu d-flex justify-content-between ">
                                                             <h2><a class="item-menu tittle-item ">Croquetas de yuca</a>
                                                             </h2>
-                                                            <div class="col-2 ">
+                                                            <div class="col-3 ">
                                                                 <span class="item-prise ">$6.000</span>
                                                             </div>
                                                         </div>
@@ -719,7 +718,7 @@
                                                         <div class="row-menu d-flex justify-content-between ">
                                                             <h2><a class="item-menu tittle-item ">Papa en Casco</a>
                                                             </h2>
-                                                            <div class="col-2 ">
+                                                            <div class="col-3 ">
                                                                 <span class="item-prise ">$10.000</span>
                                                             </div>
                                                         </div>
@@ -771,18 +770,18 @@
                                                             <div class="row-menu d-flex justify-content-between flex-column" id="panelPrecios ">
                                                                 <h2><a class="item-menu tittle-item ">JUGOS NATURALES</a></h2>
                                                                 <div class="row">
-                                                                    <div class="col-10">
+                                                                    <div class="col-9">
                                                                         <span class="item-descr pl-1">En Agua.</span>
                                                                     </div>
-                                                                    <div class=" col-2 ">
+                                                                    <div class=" col-3 ">
                                                                         <span class="item-prise ">$6.000</span>
                                                                     </div>
                                                                 </div>
                                                                 <div class="row">
-                                                                    <div class="col-10">
+                                                                    <div class="col-9">
                                                                         <span class="item-descr pl-1 col-10 ">En Leche.</span>
                                                                     </div>
-                                                                    <div class=" col-2 ">
+                                                                    <div class=" col-3 ">
                                                                         <span class="item-prise ">$6.500</span>
                                                                     </div>
                                                                 </div>
@@ -793,18 +792,18 @@
                                                             <div class="row-menu d-flex justify-content-between flex-column" id="panelPrecios ">
                                                                 <h2><a class="item-menu tittle-item ">LIMONADA</a></h2>
                                                                 <div class="row">
-                                                                    <div class="col-10">
+                                                                    <div class="col-9">
                                                                         <span class="item-descr pl-1">Frappe.</span>
                                                                     </div>
-                                                                    <div class=" col-2 ">
+                                                                    <div class=" col-3 ">
                                                                         <span class="item-prise ">$10.000</span>
                                                                     </div>
                                                                 </div>
                                                                 <div class="row">
-                                                                    <div class="col-10">
+                                                                    <div class="col-9">
                                                                         <span class="item-descr pl-1 col-10 ">Natural.</span>
                                                                     </div>
-                                                                    <div class=" col-2 ">
+                                                                    <div class=" col-3 ">
                                                                         <span class="item-prise ">$5.000</span>
                                                                     </div>
                                                                 </div>
@@ -816,7 +815,7 @@
                                                             <div class="row-menu d-flex justify-content-between " id="panelPrecios ">
                                                                 <h2><a class="item-menu tittle-item ">GRANIZADOS</a>
                                                                 </h2>
-                                                                <div class="col-2 ">
+                                                                <div class="col-3 ">
                                                                     <span class="item-prise ">$11.000</span>
                                                                 </div>
                                                             </div>
@@ -827,7 +826,7 @@
                                                             <div class="row-menu d-flex justify-content-between ">
                                                                 <h2><a class="item-menu tittle-item ">Té Helado</a>
                                                                 </h2>
-                                                                <div class="col-2 ">
+                                                                <div class="col-3 ">
                                                                     <span class="item-prise ">$6.500</span>
                                                                 </div>
                                                             </div>
@@ -838,7 +837,7 @@
                                                             <div class="row-menu d-flex justify-content-between ">
                                                                 <h2><a class="item-menu tittle-item ">Copa de Helado</a>
                                                                 </h2>
-                                                                <div class="col-2 ">
+                                                                <div class="col-3 ">
                                                                     <span class="item-prise ">$7.000</span>
                                                                 </div>
                                                             </div>
@@ -849,7 +848,7 @@
                                                             <div class="row-menu d-flex justify-content-between ">
                                                                 <h2><a class="item-menu tittle-item ">Brownie Caliente con Helado</a>
                                                                 </h2>
-                                                                <div class="col-2 ">
+                                                                <div class="col-3 ">
                                                                     <span class="item-prise ">$8.000</span>
                                                                 </div>
                                                             </div>
@@ -891,7 +890,7 @@
                                                                 <div class="row-menu d-flex justify-content-between ">
                                                                     <h2><a class="item-menu tittle-item ">SIN LICOR</a>
                                                                     </h2>
-                                                                    <div class="col-2 ">
+                                                                    <div class="col-3 ">
                                                                         <span class="item-prise ">$12.000</span>
                                                                     </div>
                                                                 </div>
@@ -903,7 +902,7 @@
                                                                 <div class="row-menu d-flex justify-content-between ">
                                                                     <h2><a class="item-menu tittle-item ">CON LICOR</a>
                                                                     </h2>
-                                                                    <div class="col-2 ">
+                                                                    <div class="col-3 ">
                                                                         <span class="item-prise ">$17.000</span>
                                                                     </div>
                                                                 </div>
@@ -915,7 +914,7 @@
                                                                 <div class="row-menu d-flex justify-content-between ">
                                                                     <h2><a class="item-menu tittle-item ">MALTEADA BALLEYS</a>
                                                                     </h2>
-                                                                    <div class="col-2 ">
+                                                                    <div class="col-3 ">
                                                                         <span class="item-prise ">$17.000</span>
                                                                     </div>
                                                                 </div>
@@ -953,7 +952,7 @@
                                                                             <hr class="style6 ">
                                                                             <hr class="style7 ">
                                                                         </div>
-                                                                        <span>VINOS</span>
+                                                                        <div class="col"><span>VINOS</span></div>
                                                                         <div class="col ">
                                                                             <hr class="style1 ">
                                                                             <hr class="style2 ">
@@ -963,7 +962,7 @@
                                                                             <hr class="style6 ">
                                                                             <hr class="style7 ">
                                                                         </div>
-                                                                        <i class="ic-cate" style="font-size: .8em">Botella</i>
+                                                                        <i class="col ic-cate" style="font-size: .8em">Botella</i>
                                                                 </h1>
                                                                 <div class="row-menu-wrap ">
                                                                     <div class="row-menu d-flex justify-content-between " id="panelPrecios ">
@@ -1108,7 +1107,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1">Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$155.000</span>
                                                                             </div>
@@ -1117,7 +1116,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">1/2 Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$93.000</span>
                                                                             </div>
@@ -1126,7 +1125,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Sencillo.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$16.900</span>
                                                                             </div>
@@ -1135,7 +1134,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Doble.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$29.900</span>
                                                                             </div>
@@ -1144,7 +1143,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Smirnoff Ice.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$13.900</span>
                                                                             </div>
@@ -1162,7 +1161,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1">Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$255.000</span>
                                                                             </div>
@@ -1171,7 +1170,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">1/2 Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$133.000</span>
                                                                             </div>
@@ -1180,7 +1179,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Sencillo.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$17.500</span>
                                                                             </div>
@@ -1189,7 +1188,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Doble.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$30.900</span>
                                                                             </div>
@@ -1231,7 +1230,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1">Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$330.000</span>
                                                                             </div>
@@ -1240,7 +1239,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Sencillo.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$28.000</span>
                                                                             </div>
@@ -1249,7 +1248,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Doble.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$43.900</span>
                                                                             </div>
@@ -1267,7 +1266,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1">Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$235.000</span>
                                                                             </div>
@@ -1276,7 +1275,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">1/2 Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$143.000</span>
                                                                             </div>
@@ -1285,7 +1284,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Sencillo.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$20.000</span>
                                                                             </div>
@@ -1294,7 +1293,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Doble.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$35.000</span>
                                                                             </div>
@@ -1313,7 +1312,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1">Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$235.000</span>
                                                                             </div>
@@ -1322,7 +1321,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">1/2 Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$143.000</span>
                                                                             </div>
@@ -1331,7 +1330,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Sencillo.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$20.000</span>
                                                                             </div>
@@ -1340,7 +1339,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Doble.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$35.000</span>
                                                                             </div>
@@ -1360,7 +1359,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1">Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$157.000</span>
                                                                             </div>
@@ -1369,7 +1368,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">1/2 Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$92.000</span>
                                                                             </div>
@@ -1378,7 +1377,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Sencillo.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$17.000</span>
                                                                             </div>
@@ -1387,7 +1386,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Doble.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$25.000</span>
                                                                             </div>
@@ -1406,7 +1405,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1">Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$235.000</span>
                                                                             </div>
@@ -1415,7 +1414,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">1/2 Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$143.000</span>
                                                                             </div>
@@ -1424,7 +1423,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Sencillo.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$20.000</span>
                                                                             </div>
@@ -1433,7 +1432,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Doble.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$35.000</span>
                                                                             </div>
@@ -1453,7 +1452,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1">Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$235.000</span>
                                                                             </div>
@@ -1462,7 +1461,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">1/2 Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$143.000</span>
                                                                             </div>
@@ -1471,7 +1470,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Sencillo.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$20.000</span>
                                                                             </div>
@@ -1480,7 +1479,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Doble.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$35.000</span>
                                                                             </div>
@@ -1499,7 +1498,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1">Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$185.000</span>
                                                                             </div>
@@ -1508,7 +1507,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Sencillo.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$18.000</span>
                                                                             </div>
@@ -1517,7 +1516,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Doble.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$30.000</span>
                                                                             </div>
@@ -1558,7 +1557,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1">Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$225.000</span>
                                                                             </div>
@@ -1567,7 +1566,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Trago.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$19.800</span>
                                                                             </div>
@@ -1584,7 +1583,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1">Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$170.000</span>
                                                                             </div>
@@ -1593,7 +1592,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">1/2 Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$90.800</span>
                                                                             </div>
@@ -1603,7 +1602,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Trago.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$17.000</span>
                                                                             </div>
@@ -1645,7 +1644,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1">Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$225.000</span>
                                                                             </div>
@@ -1654,7 +1653,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Sencillo.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$19.800</span>
                                                                             </div>
@@ -1663,7 +1662,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Doble.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$32.500</span>
                                                                             </div>
@@ -1679,7 +1678,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1">Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$175.000</span>
                                                                             </div>
@@ -1688,7 +1687,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Sencillo.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$17.800</span>
                                                                             </div>
@@ -1698,7 +1697,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Doble.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$30.500</span>
                                                                             </div>
@@ -1715,7 +1714,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1">Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$140.000</span>
                                                                             </div>
@@ -1724,7 +1723,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">1/2 Botella.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$82.900</span>
                                                                             </div>
@@ -1733,7 +1732,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Sencillo.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$17.000</span>
                                                                             </div>
@@ -1743,7 +1742,7 @@
                                                                             <div class="col-4">
                                                                                 <span class="item-descr pl-1 col-10 ">Doble.</span>
                                                                             </div>
-                                                                            <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                            <hr class="col-2" style="border-top: dotted 1px;" />
                                                                             <div class=" col-3 ">
                                                                                 <span class="item-prise ">$23.900</span>
                                                                             </div>
@@ -1791,7 +1790,7 @@
                                                                                     <div class="col-4">
                                                                                         <span class="item-descr pl-1">Botella.</span>
                                                                                     </div>
-                                                                                    <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                                    <hr class="col-2" style="border-top: dotted 1px;" />
                                                                                     <div class=" col-3 ">
                                                                                         <span class="item-prise ">$99.000</span>
                                                                                     </div>
@@ -1800,7 +1799,7 @@
                                                                                     <div class="col-4">
                                                                                         <span class="item-descr pl-1 col-10 ">1/2 Botella.</span>
                                                                                     </div>
-                                                                                    <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                                    <hr class="col-2" style="border-top: dotted 1px;" />
                                                                                     <div class=" col-3 ">
                                                                                         <span class="item-prise ">$69.000</span>
                                                                                     </div>
@@ -1810,7 +1809,7 @@
                                                                                     <div class="col-4">
                                                                                         <span class="item-descr pl-1 col-10 ">Sencillo.</span>
                                                                                     </div>
-                                                                                    <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                                    <hr class="col-2" style="border-top: dotted 1px;" />
                                                                                     <div class=" col-3 ">
                                                                                         <span class="item-prise ">$14.000</span>
                                                                                     </div>
@@ -1827,7 +1826,7 @@
                                                                                     <div class="col-4">
                                                                                         <span class="item-descr pl-1">Botella.</span>
                                                                                     </div>
-                                                                                    <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                                    <hr class="col-2" style="border-top: dotted 1px;" />
                                                                                     <div class=" col-3 ">
                                                                                         <span class="item-prise ">$190.000</span>
                                                                                     </div>
@@ -1836,7 +1835,7 @@
                                                                                     <div class="col-4">
                                                                                         <span class="item-descr pl-1 col-10 ">Doble.</span>
                                                                                     </div>
-                                                                                    <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                                    <hr class="col-2" style="border-top: dotted 1px;" />
                                                                                     <div class=" col-3 ">
                                                                                         <span class="item-prise ">$34.000</span>
                                                                                     </div>
@@ -1846,7 +1845,7 @@
                                                                                     <div class="col-4">
                                                                                         <span class="item-descr pl-1 col-10 ">Sencillo.</span>
                                                                                     </div>
-                                                                                    <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                                    <hr class="col-2" style="border-top: dotted 1px;" />
                                                                                     <div class=" col-3 ">
                                                                                         <span class="item-prise ">$19.000</span>
                                                                                     </div>
@@ -1887,7 +1886,7 @@
                                                                                     <div class="col-4">
                                                                                         <span class="item-descr pl-1">Botella.</span>
                                                                                     </div>
-                                                                                    <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                                    <hr class="col-2" style="border-top: dotted 1px;" />
                                                                                     <div class=" col-3 ">
                                                                                         <span class="item-prise ">$95.000</span>
                                                                                     </div>
@@ -1896,7 +1895,7 @@
                                                                                     <div class="col-4">
                                                                                         <span class="item-descr pl-1 col-10 ">1/2 Botella.</span>
                                                                                     </div>
-                                                                                    <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                                    <hr class="col-2" style="border-top: dotted 1px;" />
                                                                                     <div class=" col-3 ">
                                                                                         <span class="item-prise ">$51.900</span>
                                                                                     </div>
@@ -1906,7 +1905,7 @@
                                                                                     <div class="col-4">
                                                                                         <span class="item-descr pl-1 col-10 ">Sencillo.</span>
                                                                                     </div>
-                                                                                    <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                                    <hr class="col-2" style="border-top: dotted 1px;" />
                                                                                     <div class=" col-3 ">
                                                                                         <span class="item-prise ">$11.500</span>
                                                                                     </div>
@@ -1945,7 +1944,7 @@
                                                                             <div class="row-menu d-flex justify-content-between ">
                                                                                 <h2><a class="item-menu tittle-item ">Old Fashioned Haig Club</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$25.900</span>
                                                                                 </div>
                                                                             </div>
@@ -1959,7 +1958,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Joshua Cucumber Martini</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$26.000</span>
                                                                                 </div>
                                                                             </div>
@@ -1972,7 +1971,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Caminante Dorado</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$24.500</span>
                                                                                 </div>
                                                                             </div>
@@ -1986,7 +1985,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Tanqueray Passion Fruit</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$26.000</span>
                                                                                 </div>
                                                                             </div>
@@ -2000,7 +1999,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Lupe</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$26.000</span>
                                                                                 </div>
                                                                             </div>
@@ -2013,7 +2012,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Martini Tradicional</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$22.900</span>
                                                                                 </div>
                                                                             </div>
@@ -2026,7 +2025,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Vodka Martini</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$22.900</span>
                                                                                 </div>
                                                                             </div>
@@ -2039,7 +2038,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Martini Lychee</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$22.900</span>
                                                                                 </div>
                                                                             </div>
@@ -2052,7 +2051,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Martini Dry Gordon´s</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$23.900</span>
                                                                                 </div>
                                                                             </div>
@@ -2065,7 +2064,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Martini Dry Tanqueray</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$26.000</span>
                                                                                 </div>
                                                                             </div>
@@ -2078,7 +2077,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Padrino Buchanan's</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$24.500</span>
                                                                                 </div>
                                                                             </div>
@@ -2091,7 +2090,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">GinTonic Gordon's</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$23.900</span>
                                                                                 </div>
                                                                             </div>
@@ -2104,7 +2103,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Haig Citrus</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$25.900</span>
                                                                                 </div>
                                                                             </div>
@@ -2118,7 +2117,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Highball</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$25.900</span>
                                                                                 </div>
                                                                             </div>
@@ -2132,7 +2131,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Mojito Cubano</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$22.900</span>
                                                                                 </div>
                                                                             </div>
@@ -2146,7 +2145,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Mojito Fresa</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$22.900</span>
                                                                                 </div>
                                                                             </div>
@@ -2160,7 +2159,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Margarita Tradicional</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$22.900</span>
                                                                                 </div>
                                                                             </div>
@@ -2173,7 +2172,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Ruso Negro</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$22.900</span>
                                                                                 </div>
                                                                             </div>
@@ -2186,7 +2185,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Ruso Blanco</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$22.900</span>
                                                                                 </div>
                                                                             </div>
@@ -2199,7 +2198,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Pasión</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$20.900</span>
                                                                                 </div>
                                                                             </div>
@@ -2212,7 +2211,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Ícaro</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$22.900</span>
                                                                                 </div>
                                                                             </div>
@@ -2225,7 +2224,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Shot Irlandé</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$15.000</span>
                                                                                 </div>
                                                                             </div>
@@ -2238,7 +2237,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Cabeza de Jabalí</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$33.000</span>
                                                                                 </div>
                                                                             </div>
@@ -2251,7 +2250,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">GinTonic Tanqueray</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$26.000</span>
                                                                                 </div>
                                                                             </div>
@@ -2264,7 +2263,7 @@
                                                                                 <h2>
                                                                                     <a class="item-menu tittle-item ">Haig Refresh</a>
                                                                                 </h2>
-                                                                                <div class="col-2 ">
+                                                                                <div class="col-3 ">
                                                                                     <span class="item-prise ">$25.900</span>
                                                                                 </div>
                                                                             </div>
@@ -2325,7 +2324,7 @@
                                                                                         <div class="row-menu d-flex justify-content-between " id="panelPrecios ">
                                                                                             <h2><a class="item-menu tittle-item ">Café Holandés</a>
                                                                                             </h2>
-                                                                                            <div class="col-2 ">
+                                                                                            <div class="col-3 ">
                                                                                                 <span class="item-prise ">$12.500</span>
                                                                                             </div>
                                                                                         </div>
@@ -2336,7 +2335,7 @@
                                                                                         <div class="row-menu d-flex justify-content-between" id="panelPrecios ">
                                                                                             <h2><a class="item-menu tittle-item ">Café Ruso</a>
                                                                                             </h2>
-                                                                                            <div class="col-2 ">
+                                                                                            <div class="col-3 ">
                                                                                                 <span class="item-prise ">$12.500</span>
                                                                                             </div>
                                                                                         </div>
@@ -2347,7 +2346,7 @@
                                                                                         <div class="row-menu d-flex justify-content-between " id="panelPrecios ">
                                                                                             <h2><a class="item-menu tittle-item ">Café Irlandés</a>
                                                                                             </h2>
-                                                                                            <div class="col-2 ">
+                                                                                            <div class="col-3 ">
                                                                                                 <span class="item-prise ">$12.500</span>
                                                                                             </div>
                                                                                         </div>
@@ -2358,7 +2357,7 @@
                                                                                         <div class="row-menu d-flex justify-content-between " id="panelPrecios ">
                                                                                             <h2><a class="item-menu tittle-item ">Café Mocca</a>
                                                                                             </h2>
-                                                                                            <div class="col-2 ">
+                                                                                            <div class="col-3 ">
                                                                                                 <span class="item-prise ">$6.500</span>
                                                                                             </div>
                                                                                         </div>
@@ -2368,7 +2367,7 @@
                                                                                         <div class="row-menu d-flex justify-content-between " id="panelPrecios ">
                                                                                             <h2><a class="item-menu tittle-item ">Café Royal</a>
                                                                                             </h2>
-                                                                                            <div class="col-2 ">
+                                                                                            <div class="col-3 ">
                                                                                                 <span class="item-prise ">$7.500</span>
                                                                                             </div>
                                                                                         </div>
@@ -2378,7 +2377,7 @@
                                                                                         <div class="row-menu d-flex justify-content-between " id="panelPrecios ">
                                                                                             <h2><a class="item-menu tittle-item ">Capuccino</a>
                                                                                             </h2>
-                                                                                            <div class="col-2 ">
+                                                                                            <div class="col-3 ">
                                                                                                 <span class="item-prise ">$6.000</span>
                                                                                             </div>
                                                                                         </div>
@@ -2388,7 +2387,7 @@
                                                                                         <div class="row-menu d-flex justify-content-between " id="panelPrecios ">
                                                                                             <h2><a class="item-menu tittle-item ">Capuccino Licor</a>
                                                                                             </h2>
-                                                                                            <div class="col-2 ">
+                                                                                            <div class="col-3 ">
                                                                                                 <span class="item-prise ">$7.500</span>
                                                                                             </div>
                                                                                         </div>
@@ -2399,7 +2398,7 @@
                                                                                         <div class="row-menu d-flex justify-content-between " id="panelPrecios ">
                                                                                             <h2><a class="item-menu tittle-item ">Carajillo</a>
                                                                                             </h2>
-                                                                                            <div class="col-2 ">
+                                                                                            <div class="col-3 ">
                                                                                                 <span class="item-prise ">$6.500</span>
                                                                                             </div>
                                                                                         </div>
@@ -2409,7 +2408,7 @@
                                                                                         <div class="row-menu d-flex justify-content-between " id="panelPrecios ">
                                                                                             <h2><a class="item-menu tittle-item ">Espresso</a>
                                                                                             </h2>
-                                                                                            <div class="col-2 ">
+                                                                                            <div class="col-3 ">
                                                                                                 <span class="item-prise ">$3.800</span>
                                                                                             </div>
                                                                                         </div>
@@ -2419,7 +2418,7 @@
                                                                                         <div class="row-menu d-flex justify-content-between " id="panelPrecios ">
                                                                                             <h2><a class="item-menu tittle-item ">Americano Devotion</a>
                                                                                             </h2>
-                                                                                            <div class="col-2 ">
+                                                                                            <div class="col-3 ">
                                                                                                 <span class="item-prise ">$5.500</span>
                                                                                             </div>
                                                                                         </div>
@@ -2429,7 +2428,7 @@
                                                                                         <div class="row-menu d-flex justify-content-between " id="panelPrecios ">
                                                                                             <h2><a class="item-menu tittle-item ">Latte Devotion</a>
                                                                                             </h2>
-                                                                                            <div class="col-2 ">
+                                                                                            <div class="col-3 ">
                                                                                                 <span class="item-prise ">$5.500</span>
                                                                                             </div>
                                                                                         </div>
@@ -2471,7 +2470,7 @@
                                                                                             <div class="row-menu d-flex justify-content-between ">
                                                                                                 <h2><a class="item-menu tittle-item ">Té Ingles</a>
                                                                                                 </h2>
-                                                                                                <div class="col-2 ">
+                                                                                                <div class="col-3 ">
                                                                                                     <span class="item-prise ">$7.000</span>
                                                                                                 </div>
                                                                                             </div>
@@ -2482,7 +2481,7 @@
                                                                                             <div class="row-menu d-flex justify-content-between ">
                                                                                                 <h2><a class="item-menu tittle-item ">Aromática</a>
                                                                                                 </h2>
-                                                                                                <div class="col-2 ">
+                                                                                                <div class="col-3 ">
                                                                                                     <span class="item-prise ">$5.000</span>
                                                                                                 </div>
                                                                                             </div>
@@ -2493,7 +2492,7 @@
                                                                                             <div class="row-menu d-flex justify-content-between ">
                                                                                                 <h2><a class="item-menu tittle-item ">Aromática</a>
                                                                                                 </h2>
-                                                                                                <div class="col-2 ">
+                                                                                                <div class="col-3 ">
                                                                                                     <span class="item-prise ">$5.500</span>
                                                                                                 </div>
                                                                                             </div>
@@ -2551,7 +2550,7 @@
                                                                                                 <div class="row-menu d-flex justify-content-between " id="panelPrecios ">
                                                                                                     <h2><a class="item-menu tittle-item ">Coctel de Frutas</a>
                                                                                                     </h2>
-                                                                                                    <div class="col-2 ">
+                                                                                                    <div class="col-3 ">
                                                                                                         <span class="item-prise ">$10.500</span>
                                                                                                     </div>
                                                                                                 </div>
@@ -2561,7 +2560,7 @@
                                                                                                 <div class="row-menu d-flex justify-content-between" id="panelPrecios ">
                                                                                                     <h2><a class="item-menu tittle-item ">Mojito Free</a>
                                                                                                     </h2>
-                                                                                                    <div class="col-2 ">
+                                                                                                    <div class="col-3 ">
                                                                                                         <span class="item-prise ">$13.000</span>
                                                                                                     </div>
                                                                                                 </div>
@@ -2571,7 +2570,7 @@
                                                                                                 <div class="row-menu d-flex justify-content-between " id="panelPrecios ">
                                                                                                     <h2><a class="item-menu tittle-item ">Daikiri Free</a>
                                                                                                     </h2>
-                                                                                                    <div class="col-2 ">
+                                                                                                    <div class="col-3 ">
                                                                                                         <span class="item-prise ">$14.500</span>
                                                                                                     </div>
                                                                                                 </div>
@@ -2582,7 +2581,7 @@
                                                                                                 <div class="row-menu d-flex justify-content-between " id="panelPrecios ">
                                                                                                     <h2><a class="item-menu tittle-item ">Piña Colada Free</a>
                                                                                                     </h2>
-                                                                                                    <div class="col-2 ">
+                                                                                                    <div class="col-3 ">
                                                                                                         <span class="item-prise ">$14.500</span>
                                                                                                     </div>
                                                                                                 </div>
@@ -3346,7 +3345,7 @@
                                                                                                                 <div class="col-4">
                                                                                                                     <span class="item-descr pl-1">330 ml.</span>
                                                                                                                 </div>
-                                                                                                                <hr class="col-3" style="border-top: dotted 1px;" />
+                                                                                                                <hr class="col-2" style="border-top: dotted 1px;" />
                                                                                                                 <div class=" col-3 ">
                                                                                                                     <span class="item-prise ">$9.800</span>
                                                                                                                 </div>
