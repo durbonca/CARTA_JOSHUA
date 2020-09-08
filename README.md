@@ -1,5 +1,5 @@
-# Baco.cl
+# Menu Food Html for joshua restaurant
 
-web-page Baco.rest
+menu food for QR menu
 
-Demo web page: baco.rest
+something simple for a fast solution for this clients. Nothing special, please move on guys
