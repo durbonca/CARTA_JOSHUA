@@ -2,8 +2,8 @@ var app = new Vue({
 
     el: "#app",
     data: {
-        seen_food: false,
-        seen_cool: true,
+        seen_food: true,
+        seen_cool: false,
         seen_beer: false,
         seen_no_alcohol: false,
         seen_alcohol: false,
